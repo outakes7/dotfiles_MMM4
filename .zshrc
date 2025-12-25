@@ -138,6 +138,14 @@ alias tl='tmux ls'
 alias ta='tmux a'
 alias tk='tmux kill-session'
 
+# Aliases: eza
+alias ls='eza'
+alias ll='eza -l'
+alias la='eza -a'
+
+# Aliases: lsd
+alias l='lsd -l'
+
 source /Users/outakes/.config/op/plugins.sh
 eval "$(zoxide init zsh)"
 
