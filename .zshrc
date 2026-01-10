@@ -141,8 +141,8 @@ source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 
 # Aliases: Zellij
 alias zl='Zellij ls'
-alias za='Zellij a'
-alias zda='Zellij da'
+alias zd='Zellij da'
+alias zk='Zellij ka'
 
 # Aliases: tmux
 alias tn='tmux new -s '
@@ -176,3 +176,4 @@ eval "$(zoxide init zsh)"
 export NVM_DIR="$HOME/.nvm"
   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+# eval "$(zellij setup --generate-auto-start zsh)"
