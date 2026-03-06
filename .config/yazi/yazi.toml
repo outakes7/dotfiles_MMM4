@@ -226,4 +226,4 @@ open_offset = [ 0, 1, 50, 7 ]
 sort_by      	 = "none"
 sort_sensitive = false
 sort_reverse 	 = false
-sort_translit  = false
+sort_translit  = true
