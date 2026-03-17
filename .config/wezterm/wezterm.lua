@@ -11,6 +11,7 @@ config = {
 	window_close_confirmation = "NeverPrompt",
 	window_decorations = "RESIZE",
 	default_cursor_style = "BlinkingBar",
+	cursor_blink_rate = 500,
 	color_scheme = "Nord (Gogh)",
 	font = wezterm.font_with_fallback({
 		{ family = "JetBrainsMono Nerd Font", weight = "Regular" }, -- 1순위: 영문+아이콘
